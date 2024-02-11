@@ -1,0 +1,27 @@
+{
+  "name": "telf",
+  "version": "1.0.0",
+  "description": "Discord self-bot to convert date into UNIX timestamp.",
+  "main": "src/self.ts",
+  "scripts": {
+    "test": "ts-node src/self.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hello-n-bye/telf.git"
+  },
+  "author": "hello-n-bye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hello-n-bye/telf/issues"
+  },
+  "homepage": "https://github.com/hello-n-bye/telf#readme",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
