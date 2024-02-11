@@ -1,7 +1,7 @@
 import { Client, Message } from "discord.js-selfbot-v13";
 import ready from './listeners/ready';
 
-const userToken = ''
+const userToken = '';
 
 console.log('Launching Telf ...');
 
